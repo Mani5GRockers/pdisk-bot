@@ -31,7 +31,7 @@ pdisk uploader telegram bot
 * `/uptime` to see bot uptime
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lntechnical2/pdisk-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mani5GRockers/pdisk-bot)
 
 
 
