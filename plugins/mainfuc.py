@@ -35,7 +35,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(client,message):
 	insert(int(message.chat.id))
-	await message.reply_text("Hello iam Pdisk Uploader Bot\nMade with love by @mrlokaman",reply_to_message_id = message.message_id,reply_markup=InlineKeyboardMarkup([ [ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], [InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]  ) 
+	await message.reply_text("Hello i am Pdisk Uploader Bot\nMade with love by @Mani5GRockers",reply_to_message_id = message.message_id,reply_markup=InlineKeyboardMarkup([ [ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/Mani5GRockers") ], [InlineKeyboardButton("Subscribe 🧐", url="https://www.youtube.com/channel/UC3FQAYwcpxA2qDhHxTIOACw") ]  ]  ) 
         )
 	
 @Client.on_message(filters.command("ping"))
@@ -73,7 +73,7 @@ async def api_connect(client,message):
         	try:
         		check = res['data']
         		set(message.chat.id,API_KEY)
-        		await message.reply_text("Your Account Conected Successfully ✅",reply_to_message_id = message.message_id)
+        		await message.reply_text("Your Pdisk Account Conected Successfully ✅",reply_to_message_id = message.message_id)
         	except Exception as f:
         		print(f)
         		e = res['msg']
