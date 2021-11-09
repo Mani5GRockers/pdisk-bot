@@ -5,8 +5,8 @@
         "pdisk",
         "telegram"
     ],
-    "repository": "https://github.com/lntechnical2/pdisk-bot",
-    "success_url": "https://telegram.dog/lntechnical",
+    "repository": "https://github.com/Mani5GRockers/pdisk-bot",
+    "success_url": "https://telegram.me/pdiskawsbot",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
@@ -27,6 +27,7 @@
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com Watch This Video https://youtu.be/HhHzCfrqsoE",
             "value": ""
+            "required": false
         },
         "DB_NAME":{ 
                "description":"Your Mongo DB Database Name ",
